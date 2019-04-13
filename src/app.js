@@ -1,15 +1,15 @@
 const tests = require('./tests/index')
-const s = require('./submit')
+const pusher = require('@uet/pusher')
 
-exports.run  = async () => {
+exports.run = async () => {
     try {
-        const results = await tests.tests()
+        await tests.tests()
 
-        s.submit({
+        await pusher.submit({
             is_pass: true,
         })
     } catch (error) {
-        s.submit({
+        await pusher.submit({
             is_pass: false,
             message: error.message || ''
         })
