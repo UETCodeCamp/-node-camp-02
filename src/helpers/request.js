@@ -1,6 +1,6 @@
 const request = require('request-promise-native')
 
-const hostApp = process.env.HOST || 'http://localhost:8888'
+const hostApp = process.env.STUDENT_HOST || 'http://localhost:8888'
 console.log('Start running with host app:', hostApp)
 
 const instance  = request.defaults({
