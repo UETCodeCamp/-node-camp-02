@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@uet/pusher@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@uet/pusher/-/pusher-1.0.7.tgz#b45ca7d230cae009715867474650ea8a56614822"
-  integrity sha512-uQaU3GCPDb0qROvCqMtBBgUmI9n2b+E0N1CzEai1flJxZnxOIx4Gqw67YPAd7hai3KQH8KdJ0CPUcpiuf6TDIg==
+"@uet/pusher@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@uet/pusher/-/pusher-1.0.9.tgz#fae97c6b49aa86a47efd6dbeb6534c46816383a2"
+  integrity sha512-14RIZXdAX3tCwqGG/LjpSmJolTNLO4DEE5vyEhsbRZT6jcR/CVsPnnR513QbO2gS/u5uWlnwQEUkjoWMGp/zpg==
   dependencies:
     request "^2.88.0"
     request-promise-native "^1.0.7"
