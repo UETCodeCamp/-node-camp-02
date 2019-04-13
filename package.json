@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/UETCodeCamp/node-camp-02#readme",
   "dependencies": {
-    "@uet/pusher": "^1.0.3",
+    "@uet/pusher": "^1.0.7",
     "dotenv": "^7.0.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
